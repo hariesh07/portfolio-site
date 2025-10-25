@@ -136,7 +136,7 @@ params:
     intro: "Hi, my name is"
     title: "Hariesh."
     subtitle: "I turn data into solutions."
-    content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that look great, feel fantastic, and function correctly."
+    content: "I try to make solutions to problems with data."
     image: /images/hariesh_img.jpeg
     bottomImage:
       enable: true
@@ -144,7 +144,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "#"
+      url: "https://drive.google.com/file/d/1qlnv6RYDYy4PdCylKWIeXkitcc1GaSCJ/view?usp=sharing"
       download: true
       newPage: false
     socialLinks:
@@ -190,7 +190,7 @@ params:
         date: "2021 - 2025"
         GPA: "3.77 out of 4.0"
         content: |-
-          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
+          I presented and won the Best Paper Award in the 
           - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
           - Face mask detection using a single convolutional neural network.
 
