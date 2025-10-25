@@ -1,4 +1,6 @@
-baseURL: "https://hugo-profile.netlify.app"
+# template from : https://github.com/gurusabarish/hugo-profile
+
+baseURL: "https://harieshrp.netlify.app"
 languageCode: "en-us"
 title: "Hariesh Portfolio"
 theme: hugo-profile
@@ -221,8 +223,6 @@ params:
           - name: "Research Intern"
             date: "Jul 2025 - Sept 2025"
             content: "Researched about improving the optimisation of scheduling of Burn-in Ovens in Semiconductor Manufcaturing"
-            info:
-              content: Working as a senior software developer
             featuredItems:
               fontAwesomeIcons:
                 - icon: fa-brands fa-react
