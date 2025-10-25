@@ -137,7 +137,7 @@ params:
     title: "Hariesh."
     subtitle: "I turn data into solutions."
     content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that look great, feel fantastic, and function correctly."
-    image: /images/hariesh.png
+    image: /images/hariesh_img.jpeg
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -182,12 +182,12 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - company: "Facebook"
-        companyUrl: "https://example.com"
+      - company: "Indian Institute of Science"
+        companyUrl: "https://mgmt.iisc.ac.in/"
         jobs:
-          - name: "Senior Software Developer"
-            date: "Jan 2023 - present"
-            content: "I am currently working as a senior software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+          - name: "Research Intern"
+            date: "Jul 2025 - Sept 2025"
+            content: "Researched about improving the optimisation of scheduling of Burn-in Ovens in Semiconductor Manufcaturing"
             info:
               content: Working as a senior software developer
             featuredItems:
