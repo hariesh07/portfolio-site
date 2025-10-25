@@ -1,0 +1,11 @@
+# netlify.toml - configuration for Hugo site deployment on Netlify
+
+[build]
+  # Command to build your Hugo site
+  command = "hugo"
+  # Directory where Hugo outputs the generated site
+  publish = "public"
+
+[context.production.environment]
+  # Specify Hugo version to install in Netlify build environment
+  HUGO_VERSION = "0.120.0"
