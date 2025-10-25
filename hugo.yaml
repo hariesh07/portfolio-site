@@ -59,7 +59,7 @@ Menus:
     #   weight: 2
 
 params:
-  title: "The ML folk"
+  title: ""
   description: Text about my cool site
   # staticPath: ""  # The path to serve the static files from
   favicon: "/fav.png"
