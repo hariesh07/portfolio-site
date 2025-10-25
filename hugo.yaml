@@ -150,7 +150,7 @@ params:
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
-          url: https://example.com
+          url: https://github.com/hariesh07
         - icon: fab fa-x-twitter
           url: https://example.com
       customIcons:
@@ -165,17 +165,50 @@ params:
     content: |-
       I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA.
 
-      I am currently working on a project that will be used to help people find the best way to get around the city.
+      The current project that I am working on is an Automated Travel Planner using LangGraph, and I am learning how to deploy AI-based applications.
     skills:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
       items:
-        - "HTML"
-        - "CSS"
-        - "JavaScript"
-        - "React"
-        - "Node"
-        - "Express"
+        - "Python"
+        - "SQL"
+        - "streamlit"
+        - "LangGraph"
+        - "LLMs & SLMs"
+        - "Power BI"
+
+  # Education
+  education:
+    enable: true
+    # title: "Custom Name"
+    index: false
+    items:
+      - title: "Bachelor of Engineering in Computer Science and Engineering"
+        school:
+          name: "Thiagarajar College of Engineering (Affliated to Anna University), Madurai, India"
+          url: "https://tce.edu"
+        date: "2021 - 2025"
+        GPA: "3.77 out of 4.0"
+        content: |-
+          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
+          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
+          - Face mask detection using a single convolutional neural network.
+
+          Extracurricular Activities
+            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+        featuredLink:
+          enable: true
+          name: "My academic record"
+          url: "https://example.com"
+      - title: "High School"
+        school:
+          name: "Thomas Jefferson High School for Science and Technology."
+          url: "https://example.org"
+        GPA: "4.2 out of 5.0"
+        featuredLink:
+          enable: true
+          url: "https://example.com"
 
   # Experience
   experience:
@@ -256,39 +289,6 @@ params:
           - name: "Product Designer"
             date: "Feb 2016 - Mar 2017"
             content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
-
-  # Education
-  education:
-    enable: true
-    # title: "Custom Name"
-    index: false
-    items:
-      - title: "Bachelor of Engineering in Computer Science and Engineering"
-        school:
-          name: "Thiagarajar College of Engineering (Affliated to Anna University), Madurai, India"
-          url: "https://tce.edu"
-        date: "2021 - 2025"
-        GPA: "3.77 out of 4.0"
-        content: |-
-          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-          - Face mask detection using a single convolutional neural network.
-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-        featuredLink:
-          enable: true
-          name: "My academic record"
-          url: "https://example.com"
-      - title: "High School"
-        school:
-          name: "Thomas Jefferson High School for Science and Technology."
-          url: "https://example.org"
-        GPA: "4.2 out of 5.0"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
 
   # Achievements
   achievements:
@@ -376,13 +376,13 @@ params:
     #   messageCaption: "Enter your message here"
     #   messageRows: 5
 
-  footer:
-    recentPosts:
-      path: "blogs"
-      count: 3
-      title: Recent Posts
-      enable: true
-      disableFeaturedImage: false
+    #  footer:
+    #    recentPosts:
+    #      path: "blogs"
+    #      count: 3
+    #      title: Recent Posts
+    #      enable: true
+    #      disableFeaturedImage: false
     socialNetworks:
       github: https://github.com/hariesh07
       linkedin: https://linkedin.com/harieshrp
